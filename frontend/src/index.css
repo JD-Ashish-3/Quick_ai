@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&family=Outfit:wght@100..900&family=Tektur:wght@400..900&display=swap');
+@import "tailwindcss";
+
+*{
+    font-family:'Outfit', sans-serif;
+}
+
+@theme{
+    --color-primary: #5044E5;
+}
+
+.reset-tw , .reset-tw *{
+    all: revert !important;
+}
+.cl-drawerRoot{
+    z-index: 10;
+}
+
+
+::-webkit-scrollbar{
+    display: none;
+}
+
+/* Scoped scrollbar styling */
+.article-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+
+.article-scroll::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.article-scroll::-webkit-scrollbar-thumb {
+  background-color: #c0c0c0;
+  border-radius: 4px;
+}
+
+/* Optional Firefox support */
+.article-scroll {
+  scrollbar-width: thin;
+  scrollbar-color: #c0c0c0 #f1f1f1;
+}
+
