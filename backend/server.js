@@ -15,16 +15,15 @@ connectCloudinary();
 app.use(express.json());
 app.use(cors());
 app.use(clerkMiddleware());
-app.use(requireAuth());
-
-app.use('/api/ai',aiRouter);
-app.use('/api/user',userRouter);
+app.use('/api/ai',requireAuth(),aiRouter);
+app.use('/api/user', requireAuth(),userRouter);
 
 
 app.get('/',(req,res)=>
 {
     res.send("Hello from Ashish")
 });
+
 
 
 
