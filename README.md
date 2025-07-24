@@ -15,6 +15,12 @@ Quick AI is a powerful, all-in-one AI assistant built using Node.js, React, and 
 
 ---
 
+## 🌐 Live Demo
+
+🚀 **App is live on Vercel**: [https://quick-ai.vercel.app]([https://quick-ai.vercel.app](https://quick-ai-jxay.vercel.app/))  
+
+---
+
 ## 🔐 Authentication
 
 - Integrated using Clerk for user authentication.
