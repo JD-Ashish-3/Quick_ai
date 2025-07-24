@@ -17,25 +17,21 @@ Quick AI is a powerful, all-in-one AI assistant built using Node.js, React, and 
 
 ## 🔐 Authentication
 
-- Integrated using **[Clerk](https://clerk.dev/)** for user authentication.
+- Integrated using Clerk for user authentication.
 - Users can log in via email/password, Google, or other OAuth providers.
-- Sessions and route protection implemented using `@clerk/express` and `@clerk/clerk-react`.
-
----
 
 ## 💰 Free & Premium Access
 
 - **Free Tier**: Limited usage of all features.
 - **Premium Tier**: Full access to advanced tools with extended limits.
-- Payment gateway handled using **Clerk's built-in payments** with Stripe integration.
+- Payment gateway handled using **Clerk's built-in payments**.
 
----
 
 ## 🧠 Tech Stack
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: PostgreSQL or MongoDB (as per your config)
+- **Database**: PostgreSQL (Neon)
 - **Authentication**: Clerk
-- **AI Models**: Gemini API via `GEMINI_API_KEY`
-- **Image Generation**: Clipboard API via `CLIPBOARD_API_KEY`
+- **AI Models**: Gemini API 
+- **Image Generation**: Clipboard API 
