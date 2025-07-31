@@ -85,7 +85,7 @@ const Community = () => {
               <div>
                 <p>{creation.likes.length}</p>
                 <Heart
-                  onClick={() => imageLikeToggle(creation.id)}
+                  onClick={() => imageLikeToggle(creation._id)}
                   className={`min-w-5 h-5 hover:scale-110 cursor-pointer ${
                     creation.likes.includes(user.id)
                       ? "fill-red-500 text-red-600"

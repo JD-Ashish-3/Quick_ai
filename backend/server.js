@@ -1,6 +1,7 @@
 import express from 'express';
 import cors from 'cors';
 import dotenv from 'dotenv';
+import connectDB from './config/mongodb.js';
 import { clerkMiddleware, requireAuth } from '@clerk/express';
 import aiRouter from './routes/aiRoutes.js';
 import connectCloudinary from './config/cloudinary.js';
@@ -10,6 +11,7 @@ const app=express();
 const port = 4000;
 
 dotenv.config();
+connectDB();
 connectCloudinary();
 
 app.use(express.json());
