@@ -37,7 +37,7 @@ Quick AI is a powerful, all-in-one AI assistant built using Node.js, React, and 
 
 - **Frontend**: React, Tailwind CSS
 - **Backend**: Node.js, Express.js
-- **Database**: PostgreSQL (Neon)
+- **Database**: MongoDB
 - **Authentication**: Clerk
 - **AI Models**: Gemini API 
 - **Image Generation**: Clipboard API 
